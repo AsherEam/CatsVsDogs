@@ -7,7 +7,7 @@ st.text("Built by Asher Eamranond")
 
 def label_func(f): return f[0].isupper()
 # Load our pre-trained model
-model = load_learn("my_model.pkl")
+model = load_learner("my_model.pkl")
 
 #Define a function to make predictions
 def predict(image):
