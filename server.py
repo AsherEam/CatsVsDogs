@@ -3,7 +3,7 @@ from fastai.vision.all import *
 import urllib.request
 
 st.title("Cat verses Dog Classifier")
-st.text("Built by Shawn Zhuang")
+st.text("Built by Asher Eamranond")
 
 
 def label_func(f): return f[0].isupper()
