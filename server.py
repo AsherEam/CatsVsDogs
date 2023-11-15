@@ -6,7 +6,7 @@ st.title("Cat verses Dog Classifier")
 st.text("Built by Asher Eamranond")
 
 
-def label_func(f): return f[0].isupper()
+def label_function(f): return f[0].isupper()
 
 
 # Load our pre-trained model
